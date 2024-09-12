@@ -99,6 +99,13 @@ const DetailWrapper = styled.div`
     font-size: 1.2rem;
     line-height: 2.5rem;
   }
+  ol{
+    margin-left: 1rem;
+  }
+  ol li{
+    font-size: 1rem;
+    line-height: 2rem;
+  }
 `;
 
 const Button = styled.button`
