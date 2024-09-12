@@ -75,10 +75,7 @@ const DetailWrapper = styled.div`
   margin-top: 10rem;
   margin-bottom: 5rem;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap;
+
   .active{
     background: linear-gradient(35deg, #494949, #313131);
     color: #fff;
@@ -86,7 +83,6 @@ const DetailWrapper = styled.div`
   p{
     margin: 1.5rem 0rem;
     font-weight: 300;
-    text-align: center;
   }
   a{
     color: #000;
@@ -116,7 +112,7 @@ const Button = styled.button`
 
 `
 const Info = styled.div`
-  margin-left: 0;
+  margin-left: 2rem;
 `
 
 export default Recipe
